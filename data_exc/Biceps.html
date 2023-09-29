@@ -1,0 +1,812 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"a5e0c8e661",applicationID:"524815282"};;/*! For license information please see nr-loader-rum-1.242.0.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={234:(e,t,n)=>{n.d(t,{P_:()=>h,Mt:()=>m,C5:()=>s,DL:()=>w,OP:()=>j,lF:()=>N,Yu:()=>_,Dg:()=>v,CX:()=>c,GE:()=>A,sU:()=>T});var r=n(8632),i=n(9567);const a={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a),(0,r.Qy)(e,o[e],"info")}const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var u=n(7056),l=n(50);const f=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:u.oD,inactiveMs:u.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector=t+",[data-nr-mask]":null===t?e.mask_selector=t:(0,l.Z)("An invalid session_replay.mask_selector was provided and will not be used",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},g={},p="All configuration objects require an agent identifier!";function h(e){if(!e)throw new Error(p);if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function v(e,t){if(!e)throw new Error(p);g[e]=(0,i.D)(t,f()),(0,r.Qy)(e,g[e],"config")}function m(e,t){if(!e)throw new Error(p);var n=h(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const b={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},y={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!y[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return y[e]}function A(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");y[e]=(0,i.D)(t,b),(0,r.Qy)(e,y[e],"loader_config")}const _=(0,r.mF)().o;var x=n(385),D=n(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(x._A?.performance?.timeOrigin||x._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+x._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof x._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},E={};function j(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!E[e])throw new Error("Runtime for ".concat(e," was never set"));return E[e]}function T(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");E[e]=(0,i.D)(t,k),(0,r.Qy)(e,E[e],"runtime")}function N(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(n).length?e:n;for(let o in a)if(void 0!==e[o])try{"object"==typeof e[o]&&"object"==typeof t[o]?n[o]=i(e[o],t[o]):n[o]=e[o]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>a,q4:()=>r});const r="1.242.0",i="PROD",a="CDN"},385:(e,t,n)=>{n.d(t,{Nk:()=>u,Tt:()=>s,_A:()=>a,cv:()=>l,iS:()=>o,il:()=>r,ux:()=>c,v6:()=>i,w1:()=>d});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===a?.document?.visibilityState),s=(a?.location,/iPad|iPhone|iPod/.test(a.navigator?.userAgent)),c=s&&"undefined"==typeof SharedWorker,d=((()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(r&&window.document.documentMode)),u=!!a.navigator?.sendBeacon,l=Math.floor(a?.performance?.timeOrigin||a?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,n)=>{n.d(t,{w:()=>a});var r=n(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(8325),i=n(1284),a=n(4322),o=n(3325);const s={};function c(e,t){const n={staged:!1,priority:o.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const n=[...s[e]];function o(t){const n=e?r.ee.get(e):r.ee,o=a.X.handlers;if(n.backlog&&o){var s=n.backlog[t],c=o[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete o[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((t=>{let[n]=t;s[e].delete(n),o(n)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],a=e[3],o=e[2];i.apply(a,o)}}))}},8325:(e,t,n)=>{n.d(t,{A:()=>c,ee:()=>d});var r=n(8632),i=n(2210),a=n(234);class o{constructor(e){this.contextId=e}}var s=n(3117);const c="nr@context:".concat(s.a),d=function e(t,n){var r={},s={},u={},f=!1;try{f=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var n=r[e];if(!n)return;for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)},emit:function(e,n,r,i,a){!1!==a&&(a=!0);if(d.aborted&&!i)return;t&&a&&t.emit(e,n,r);for(var o=p(r),c=v(e),u=c.length,l=0;l<u;l++)c[l].apply(o,n);var f=b()[s[e]];f&&f.push([g,e,n,o]);return o},get:m,listeners:v,context:p,buffer:function(e,t){const n=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[r,i]=e;s[i]=t,t in n||(n[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:n,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof o?e:e?(0,i.X)(e,c,(()=>new o(c))):new o(c)}function h(e,t){r[e]=v(e).concat(t)}function v(e){return r[e]||[]}function m(t){return u[t]=u[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),u=(0,r.fP)();function l(){d.aborted=!0,d.backlog={}}u.ee||(u.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(8325).ee.get("handle");function i(e,t,n,i,a){a?(a.buffer([e],i),a.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>a});var r=n(5546);a.on=o;var i=a.handlers={};function a(e,t,n,a){o(a||r.E,i,e,t,n)}function o(e,t,n,i,a){a||(a="feature"),e||(e=r.E);var o=t[a]=t[a]||{};(o[n]=o[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var r=n(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(n,r))}},3117:(e,t,n)=>{n.d(t,{a:()=>r});const r=(0,n(4402).Rl)()},4402:(e,t,n)=>{n.d(t,{Rl:()=>o,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++n).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(n,++i).toString(16));return o.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>a,oD:()=>i});const r="NRBA",i=144e5,a=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(8325),i=n(5546),a=n(3325);const o={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]},s=new Set;function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(s.has(t)||Object.entries(e).forEach((e=>{let[t,r]=e;o[t]?o[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r)})),Object.keys(o).forEach((e=>{void 0===d[e]&&(o[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),s.add(t))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>a});var r=n(8325);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>o,b:()=>a});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,r.bP)("load",e,t)}function o(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>a,fP:()=>o,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=o();const a=i.initializedAgents||{},s=a[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...a,[e]:{...s,[n]:t}},i}function d(e,t){o()[e]=t}function u(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>a,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>o});const r=n(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewEvent},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>a});var r=n(234),i=n(8325);class a{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=i.ee.get(e,(0,r.OP)(this.agentIdentifier).isolatedBacklog),this.featureName=n,this.blocked=!1}}},7530:(e,t,n)=>{n.d(t,{j:()=>b});var r=n(3325),i=n(234),a=n(5546),o=n(8325),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","inlineHit","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...r))})),a.length>1?a:a[0]}(t,...r)}}))}var h=n(2587);const v=e=>{n.p=e};let m=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:_,runtime:x={loaderType:b},exposed:D=!0}=t;const k=(0,g.gG)();A||(w=k.init,A=k.info,_=k.loader_config),(0,i.Dg)(e,w||{}),(0,i.GE)(e,_||{}),A.jsAttributes??={},u.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e,A);const E=(0,i.P_)(e),j=[A.beacon,A.errorBeacon];m||(m=!0,E.proxy.assets&&(v(E.proxy.assets+"/"),j.push(E.proxy.assets)),E.proxy.beacon&&j.push(E.proxy.beacon)),x.denyList=[...E.ajax.deny_list||[],...E.ajax.block_internal?j:[]],(0,i.sU)(e,x),p();const T=function(e,t){t||(0,c.R)(e,"api");const g={};var p=o.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,a){const o=(0,i.C5)(e);return null===n?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:n}}),A(v,r,!0,a||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","inlineHit","addRelease"].forEach((e=>{g[e]=A(v,e,!0,"api")})),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,a.p)(f.xS,["API/start/".concat(t,"/called")],void 0,r.D.metrics,p);const n=Object.values(r.D);if(void 0===e)e=n;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!n.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(n));e.includes(r.D.pageViewEvent)||e.push(r.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,o="function"==typeof t;return(0,a.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],n),o)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function _(){n.e(75).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>_()),!0):_(),g}(e,y);return(0,g.Qy)(e,T,"api"),(0,g.Qy)(e,D,"exposed"),(0,g.EZ)("activatedFeatures",h.T),T}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var a=r[e]={exports:{}};return n[e](a,a.exports,i),a.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>"nr-rum-1.242.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.242.0.PROD:",i.l=(n,r,a,o)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var a=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var a=n&&("load"===n.type?"missing":n.type),o=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,a,[o,s,c]=n,d=0;if(o.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},n=self["webpackChunk:NRBA-1.242.0.PROD"]=self["webpackChunk:NRBA-1.242.0.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{var e=i(50);class t{addPageAction(t,n){(0,e.Z)("Call to agent api addPageAction failed. The session trace feature is not currently initialized.")}setPageViewName(t,n){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,n,r){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,n){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setApplicationVersion(t){(0,e.Z)("Call to agent api setApplicationVersion failed. The agent is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,n){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}start(t){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}}var n=i(3325),r=i(234);const a=Object.values(n.D);function o(e){const t={};return a.forEach((n=>{t[n]=function(e,t){return!1!==(0,r.Mt)(t,"".concat(e,".enabled"))}(n,e)})),t}var s=i(7530);var c=i(8e3),d=i(5938),u=i(3960),l=i(385);class f extends d.W{constructor(e,t,n){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,r.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,n)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const n=l.il&&!0===(0,r.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let r;try{if(n){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3228));r=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,r))return(0,c.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:n}=await e(this.featureName,"aggregate");this.featAggregate=new n(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),a(!1)}};l.il?(0,u.b)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==n.D.sessionReplay||!!r.Yu.MO&&(!1!==(0,r.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplay))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,n),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var a=this.getBucket(e,t,n,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,n){t[e]=b(n,t[e])})),t}(r,a.metrics),a}merge(e,t,n,r,i){var a=this.getBucket(e,t,r,i);if(a.metrics){var o=a.metrics;o.count+=n.count,(0,v.D)(n,(function(e,t){if("count"!==e){var r=o[e],i=n[e];i&&!i.c?o[e]=b(i.t,r):o[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=b(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=w(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function w(e){return"object"!=typeof e?[]:(0,v.D)(e,A)}function A(e,t){return t}var _=i(8632),x=i(4402),D=i(4351);var k=i(5546),E=i(7956),j=i(3239),T=i(7894),N=i(9251);class S extends f{static featureName=N.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,N.t,n),l.il&&((0,E.N)((()=>(0,k.p)("docHidden",[(0,T.z)()],void 0,N.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,k.p)("winPagehide",[(0,T.z)()],void 0,N.t,this.ee))),this.importAggregator())}}var P=i(3081);class C extends f{static featureName=P.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,P.t9,n),this.importAggregator()}}new class extends t{constructor(t){let n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=n,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),Object.assign(this,(0,s.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,r.C5)(this.agentIdentifier),init:(0,r.P_)(this.agentIdentifier),loader_config:(0,r.DL)(this.agentIdentifier),runtime:(0,r.OP)(this.agentIdentifier)}}run(){const t="features";try{const r=o(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((e,t)=>n.p[e.featureName]-n.p[t.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===n.D.pageViewEvent){const i=function(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.sessionReplay:return[n.D.sessionTrace];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}(t.featureName);i.every((e=>r[e]))||(0,e.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,D.P)(i),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(n){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",n);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The page action feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[p,S,C],loaderType:"lite"})})()})();</script>
+<meta name="description" content="Jefit has one of the largest exercise databases in any workout app or website. With 1300+ exercises, members can find exercises that suits their needs and can adding into their workout routines for progress tracking " />
+<meta name="keywords" content="Biceps (biceps brachii),Jefit, Workout, Bodybuilding, Fitness, App, Routine, Database, Exercise, Planner, iPhone, Android, Weight, Training, Bodypart, Largest, 1300, Forum, Back, Biceps, Triceps, Glutes, Lower Legs, Cardio, Shoulders, Chest, Forearms, Abs, Upper Legs, Details, Animations, Tips, Progress, Tracking, Logs, Difficulty, Type, Equipment" />
+<title>Biceps (biceps brachii) Exercise Database & Workout Guides | Jefit - Best Android Workout, Fitness, Exercise and Bodybuilding App | Best Workout Tracking Software</title>
+<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" />
+<style>
+	    @media only screen and (max-width: 900px) {
+			.hide-ads {
+				display:none;
+			}
+		}
+</style>
+<script type="text/javascript" src="https://cdn.jefit.com/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="/js/amplitude/amplitude-events.js"></script>
+
+
+<!--    <link rel="stylesheet" href="--><!--/assets/css/bootstrap.css"/>-->
+    <link rel='stylesheet' id='astra-theme-css-css'  href='https://www.jefit.com/assets/css/astra/astra.css' media='all' />
+    <link rel="stylesheet" id='astra-theme-css-inline-css' href="https://www.jefit.com/assets/css/astra/astra-inline.css">
+<!--[if IE]>
+<script src='https://cdn.jefit.com/wp/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=3.9.1' id='astra-flexibility-js'></script>
+<script id='astra-flexibility-js-after'>
+flexibility(document.documentElement);</script>
+<![endif]-->
+    <link rel='stylesheet' id='astra-google-fonts-css'  href='https://www.jefit.com/wp/wp-content/astra-local-fonts/astra-local-fonts.css?ver=3.9.1' media='all' />
+    <link rel='stylesheet' id='wp-block-library-css'  href='https://www.jefit.com/wp/wp-content/plugins/socialsnap-plus/assets/css/socialsnap.css?ver=1.1.17' media='all' />
+    <!-- <link rel='stylesheet' id='astra-addon-css-css'  href='https://www.jefit.com/wp/wp-content/uploads/astra-addon/astra-addon-62f4412902b788-61793530.css?ver=3.9.1' media='all' /> -->
+    <link rel='stylesheet' id='elementor-icons-css'  href='https://www.jefit.com/wp/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.16.0' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-legacy-css'  href='https://www.jefit.com/wp/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.7.0' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css'  href='https://www.jefit.com/wp/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.7.0' media='all' />
+    <!-- <link rel='stylesheet' id='elementor-post-18702-css'  href='https://www.jefit.com/wp/wp-content/uploads/elementor/css/post-18702.css?ver=1659974557' media='all' /> -->
+    <link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CDM+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.0.1' media='all' />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="icon" href="https://www.jefit.com/wp/wp-content/uploads/2016/09/cropped-iTunesArtwork@2x-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://www.jefit.com/wp/wp-content/uploads/2016/09/cropped-iTunesArtwork@2x-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://www.jefit.com/wp/wp-content/uploads/2016/09/cropped-iTunesArtwork@2x-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://www.jefit.com/wp/wp-content/uploads/2016/09/cropped-iTunesArtwork@2x-270x270.png" />
+    
+
+<head>
+<!-- Meta -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="max-image-preview:large">
+    <meta name="apple-itunes-app" content='app-id=449810000'>
+
+<!-- CSS Global Compulsory -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.jefit.com/assets/css/bootstrap.css"/>
+<link rel="stylesheet" href="https://www.jefit.com/assets/css/style.css"/>
+<link rel="stylesheet" href="https://www.jefit.com/assets/css/headers/header-wp.css"/>
+<!-- CSS Implementing Plugins -->
+<link rel="stylesheet" href="https://www.jefit.com/assets/plugins/line-icons/line-icons.css"/>
+<link rel="stylesheet" href="https://www.jefit.com/assets/plugins/font-awesome/css/font-awesome.css"/>
+<link rel="shortcut icon" href="https://www.jefit.com/favicon.ico" type="image/x-icon"/>
+<!-- JEFIT Main Style file -->
+<link rel="stylesheet"
+   href="https://www.jefit.com/1695747368/style"
+   type="text/css" media="screen"/>
+<script type="text/javascript" src="https://cdn.jefit.com/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="https://www.jefit.com/wp/wp-content/uploads/custom-css-js/22725.js"></script>
+
+<!-- Wordpress Stylings -->
+<style>
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+
+
+</head>
+
+<!--Cookie Banner-->
+<link rel="stylesheet" href="https://cdn.jefit.com/assets/plugins/cookie-banner/cookiealert.css">
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+   })(window,document,'script','dataLayer','GTM-5P4QND4');
+</script>
+<!-- End Google Tag Manager -->
+<!-- Amplitude Tracking Code Header START-->
+<script type="text/javascript">
+   (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+   ;r.type="text/javascript";r.async=true
+   ;r.src="https://cdn.amplitude.com/libs/amplitude-4.0.0-min.gz.js"
+   ;r.onload=function(){if(e.amplitude.runQueuedFunctions){
+   e.amplitude.runQueuedFunctions()}else{
+   console.log("[Amplitude] Error: could not load SDK")}}
+   ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+   ;function s(e,t){e.prototype[t]=function(){
+   this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+   var o=function(){this._q=[];return this}
+   ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+   ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+   ;return this}
+   ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+   ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+   ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId","setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","logEventWithTimestamp","logEventWithGroups","setSessionId"]
+   ;function v(e){function t(t){e[t]=function(){
+   e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+   for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+   e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+   ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+   ;e.amplitude=n})(window,document);
+
+
+
+   // Amplitude is a product analytics platform that helps businesses to track visitors with the help of collaborative analytics.
+          amplitude.getInstance().init("b9d2bc03885acd82f7a3b95918a0c2b6");
+   
+</script>
+<script>
+    function toggleSubMenu() {
+        var subMenu = $('#sub-menu');
+        if(subMenu.is(":visible")){
+             subMenu.hide();
+        } else {
+             subMenu.show();
+        }
+    }
+
+    function toggleGetJefitMenu() {
+        var menu = $("#get-jefit-submenu");
+        if(menu.is(":visible")){
+             menu.hide();
+        } else {
+             menu.show();
+        }
+    }
+</script>
+<!-- Amplitude Tracking Code Header END -->
+
+<script
+      type="text/javascript"
+      src="https://cdn.jefit.com/wp/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.5.6"
+      id="elementor-frontend-js"
+    ></script>
+</head>
+
+
+<!-- body open, close in footer.php-->
+<body itemtype='https://schema.org/WebPage' itemscope='itemscope' class="page-template page-template-elementor_header_footer page page-id-4508 wp-custom-logo group-blog ast-single-post ast-mobile-inherit-site-logo ast-inherit-site-logo-transparent ast-hfb-header ast-desktop ast-separate-container ast-two-container ast-no-sidebar astra-3.9.1 ast-inherit-site-logo-sticky ast-normal-title-enabled elementor-default elementor-template-full-width elementor-kit-18702 elementor-page elementor-page-4508 astra-addon-3.9.1">
+
+<div
+class="hfeed site" id="page">
+<header
+        class="site-header ast-primary-submenu-animation-fade header-main-layout-1 ast-primary-menu-enabled ast-logo-title-inline ast-hide-custom-menu-mobile ast-builder-menu-toggle-icon ast-mobile-header-inline" id="masthead" itemtype="https://schema.org/WPHeader" itemscope="itemscope" itemid="#masthead"		>
+        <div id="ast-desktop-header" data-toggle-type="dropdown">
+            <div class="ast-main-header-wrap main-header-bar-wrap ">
+                <div class="ast-primary-header-bar ast-primary-header main-header-bar site-header-focus-item" data-section="section-primary-header-builder">
+                    <div class="site-primary-header-wrap ast-builder-grid-row-container site-header-focus-item ast-container" data-section="section-primary-header-builder">
+                        <div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-builder-grid-row-no-center" style ="line-height: 75px;">
+                            <div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
+                                <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
+                                    <div
+                                        class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope"				>
+                                        <span class="site-logo-img"><a href="https://www.jefit.com/" class="custom-logo-link" rel="home"><img width="120" height="31" src="https://www.jefit.com/wp/wp-content/uploads/2017/07/cropped-logo_155_40_white-120x31.webp" class="custom-logo" alt="Jefit &#8211; #1 Gym / Home workout app" srcset="https://www.jefit.com/wp/wp-content/uploads/2017/07/cropped-logo_155_40_white-120x31.webp 120w,https://www.jefit.com/wp/wp-content/uploads/2017/07/cropped-logo_155_40_white-150x40.webp 150w,https://www.jefit.com/wp/wp-content/uploads/2017/07/cropped-logo_155_40_white.webp 155w" sizes="(max-width: 120px) 100vw, 120px" /></a></span>				</div>
+                                    <!-- .site-branding -->
+                                </div>
+                            </div>
+                            <div class="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
+                                <div class="ast-builder-menu-1 ast-builder-menu ast-flex ast-builder-menu-1-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-hb-menu-1">
+                                    <div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="primary-site-navigation" aria-label="Site Navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="main-navigation ast-inline-flex"><ul id="ast-hf-menu-1" class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-slide-down  stack-on-mobile"><li id="menu-item-12162" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-12162"><a href="https://www.jefit.com" class="menu-link">Get App</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span><span class="ast-icon icon-arrow"></span></button>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-12163" class="w-nav-get-an w-nav-get-ios menu-item menu-item-type-custom menu-item-object-custom menu-item-12163"><a href="https://itunes.apple.com/app/apple-store/id449810000?pt=516380&#038;ct=Email&#038;mt=8" class="menu-link">Workout App (iOS)</a></li>
+                                                                <li id="menu-item-12164" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12164"><a href="https://play.google.com/store/apps/details?id=je.fit&#038;referrer=utm_source%3Demail" class="menu-link">Workout App (Android)</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li id="menu-item-4655" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4655"><a href="https://www.jefit.com/routines/" class="menu-link">Workout Plans</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span><span class="ast-icon icon-arrow"></span></button>
+                                                            <ul class="sub-menu">
+                                                                <li id="menu-item-15935" class="w-nav-pro menu-item menu-item-type-custom menu-item-object-custom menu-item-15935"><a href="https://www.jefit.com/routines/" class="menu-link">Pro-designed Plans</a></li>
+                                                                <li id="menu-item-15934" class="w-nav-create menu-item menu-item-type-custom menu-item-object-custom menu-item-15934"><a href="https://www.jefit.com/build-routine/" class="menu-link">Create My Plan</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li id="menu-item-4654" class="w-nav-exercises menu-item menu-item-type-post_type menu-item-object-page menu-item-4654"><a href="https://www.jefit.com/exercises/" class="menu-link">Exercises</a></li>
+                                                        <li id="menu-item-19731" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19731" aria-haspopup="true"><a href="https://www.jefit.com/community/" class="menu-link">Community</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span><span class="ast-icon icon-arrow"></span></button>
+                                                        <ul class="sub-menu">
+                                                            <li id="menu-item-19732" class="w-nav-community menu-item menu-item-type-custom menu-item-object-custom menu-item-19732"><a href="https://www.jefit.com/community/" class="menu-link">Jefit Community</a></li>
+                                                            <li id="menu-item-14824" class="w-nav-blog menu-item menu-item-type-post_type menu-item-object-page menu-item-14824"><a href="https://www.jefit.com/blog/" class="menu-link">Blog</a></li>
+                                                        </ul>
+                                                        </li>
+                                                        <li id="menu-item-15933" class="w-nav-coach menu-item menu-item-type-post_type menu-item-object-page menu-item-15933"><a href="https://www.jefit.com/coach/" class="menu-link">Coach</a></li>
+                                                        <li id="menu-item-15181" class="w-nav-elite menu-item menu-item-type-custom menu-item-object-custom menu-item-15181"><a href="https://www.jefit.com/elite/" class="menu-link">Elite</a></li>
+
+                                                        
+                                                                                                                <li id="menu-item-15934" class="w-nav-login menu-item menu-item-type-custom menu-item-object-custom menu-item-15934">
+                                                            <a href="https://www.jefit.com/login/" class="menu-link">Login</a>
+                                                        </li>
+                                                        <li id="menu-item-15934" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15934">
+                                                            <div class="ast-builder-layout-element ast-flex site-header-focus-item ast-header-button-1" data-section="section-hb-button-1">
+                                                                <div class="ast-builder-button-wrap ast-builder-button-size-sm">
+                                                                    <a class="ast-custom-button-link" href="https://www.jefit.com/signup/" target="_blank" >
+                                                                        <div class="ast-custom-button" style ="padding: 10px 40px; font-size:15px;">Try For Free</div>
+                                                                    </a>
+                                                                    <a class="menu-link" href="https://www.jefit.com/signup/" target="_blank">Try For Free</a>
+                                                                </div>		
+                                                            </div>
+                                                        </li>
+                                                              
+
+                                                    </ul></div></nav></div></div>		</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ast-desktop-header-content content-align-flex-start ">
+            </div>
+        </div> <!-- Main Header Bar Wrap -->
+        <div id="ast-mobile-header" class="ast-mobile-header-wrap " data-type="dropdown">
+            <div class="ast-main-header-wrap main-header-bar-wrap" >
+                <div class="ast-primary-header-bar ast-primary-header main-header-bar site-primary-header-wrap site-header-focus-item ast-builder-grid-row-layout-default ast-builder-grid-row-tablet-layout-default ast-builder-grid-row-mobile-layout-default" data-section="section-primary-header-builder">
+                    <div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-builder-grid-row-no-center">
+                        <div class="site-header-primary-section-left site-header-section ast-flex site-header-section-left">
+                            <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="title_tagline">
+                                <div
+                                    class="site-branding ast-site-identity" itemtype="https://schema.org/Organization" itemscope="itemscope"				>
+                                    <span class="site-logo-img"><a href="https://www.jefit.com/" class="custom-logo-link" rel="home"><img width="120" height="31" src="https://www.jefit.com/wp/wp-content/uploads/2017/07/cropped-logo_155_40_white-120x31.webp" class="custom-logo" alt="Jefit &#8211; #1 Gym / Home workout app" srcset="https://www.jefit.com/wp/wp-content/uploads/2017/07/cropped-logo_155_40_white-120x31.webp 120w,https://www.jefit.com/wp/wp-content/uploads/2017/07/cropped-logo_155_40_white-150x40.webp 150w,https://www.jefit.com/wp/wp-content/uploads/2017/07/cropped-logo_155_40_white.webp 155w" sizes="(max-width: 120px) 100vw, 120px" /></a></span>				</div>
+                                <!-- .site-branding -->
+                            </div>
+                        </div>
+                        <div class="site-header-primary-section-right site-header-section ast-flex ast-grid-right-section">
+                                                        <div class="ast-builder-layout-element ast-flex site-header-focus-item ast-header-button-1" data-section="section-hb-button-1">
+                                <div class="ast-builder-button-wrap ast-builder-button-size-sm">
+                                    <a class="ast-custom-button-link" href="https://www.jefit.com/signup/" target="_blank">
+                                        <div class="ast-custom-button" style="padding: 10px 20px; font-size:15px;">Try for Free</div>
+                                    </a>
+                                    <a class="menu-link" href="https://www.jefit.com/signup/" target="_blank">Try for Free</a>
+                                </div>		
+                            </div>
+                                                        <div class="ast-builder-layout-element ast-flex site-header-focus-item" data-section="section-header-mobile-trigger">
+                                <div class="ast-button-wrap">
+                                    <button type="button" class="menu-toggle main-header-menu-toggle ast-mobile-menu-trigger-fill" style="background:#2d7cff;" aria-expanded="false" data-index="0">
+                                        <span class="screen-reader-text">Main Menu</span>
+                                            <span class="mobile-menu-toggle-icon">
+                                            <span class="ahfb-svg-iconset ast-inline-flex svg-baseline"><svg class="ast-mobile-svg ast-menu2-svg" style="fill:white;" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 24 28"><path d="M24 21v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1zM24 13v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1zM24 5v2c0 0.547-0.453 1-1 1h-22c-0.547 0-1-0.453-1-1v-2c0-0.547 0.453-1 1-1h22c0.547 0 1 0.453 1 1z"></path></svg></span><span class="ahfb-svg-iconset ast-inline-flex svg-baseline"><svg class="ast-mobile-svg ast-close-svg" style="fill:white;" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M5.293 6.707l5.293 5.293-5.293 5.293c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l5.293-5.293 5.293 5.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414l-5.293-5.293 5.293-5.293c0.391-0.391 0.391-1.024 0-1.414s-1.024-0.391-1.414 0l-5.293 5.293-5.293-5.293c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"></path></svg></span>					
+                                        </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="ast-mobile-header-content content-align-flex-start ">
+                <div class="ast-builder-menu-1 ast-builder-menu ast-flex ast-builder-menu-1-focus-item ast-builder-layout-element site-header-focus-item" data-section="section-hb-menu-1">
+                    <div class="ast-main-header-bar-alignment"><div class="main-header-bar-navigation"><nav class="site-navigation ast-flex-grow-1 navigation-accessibility site-header-focus-item" id="primary-site-navigation" aria-label="Site Navigation" itemtype="https://schema.org/SiteNavigationElement" itemscope="itemscope"><div class="main-navigation ast-inline-flex"><ul id="ast-hf-menu-1" class="main-header-menu ast-menu-shadow ast-nav-menu ast-flex  submenu-with-border astra-menu-animation-slide-down  stack-on-mobile"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-has-children menu-item-12162"><a href="https://www.jefit.com" class="menu-link">Get App</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span><span class="ast-icon icon-arrow"></span></button>
+                                            <ul class="sub-menu">
+                                                <li class="w-nav-get-an w-nav-get-ios menu-item menu-item-type-custom menu-item-object-custom menu-item-12163"><a href="https://itunes.apple.com/app/apple-store/id449810000?pt=516380&#038;ct=Email&#038;mt=8" class="menu-link">Workout App (iOS)</a></li>
+                                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12164"><a href="https://play.google.com/store/apps/details?id=je.fit&#038;referrer=utm_source%3Demail" class="menu-link">Workout App (Android)</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4655"><a href="https://www.jefit.com/routines/" class="menu-link">Workout Plans</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span><span class="ast-icon icon-arrow"></span></button>
+                                            <ul class="sub-menu">
+                                                <li class="w-nav-pro menu-item menu-item-type-custom menu-item-object-custom menu-item-15935"><a href="https://www.jefit.com/routines/" class="menu-link">Pro-designed Plans</a></li>
+                                                <li class="w-nav-create menu-item menu-item-type-custom menu-item-object-custom menu-item-15934"><a href="https://www.jefit.com/build-routine/" class="menu-link">Create My Plan</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="w-nav-exercises menu-item menu-item-type-post_type menu-item-object-page menu-item-4654"><a href="https://www.jefit.com/exercises/" class="menu-link">Exercises</a></li>
+                                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19731 ast-submenu-expanded"><a href="https://www.jefit.com/community/" class="menu-link">Community</a><button class="ast-menu-toggle" aria-expanded="false"><span class="screen-reader-text">Menu Toggle</span><span class="ast-icon icon-arrow"></span></button>
+                                        <ul class="sub-menu" style="display: block;">
+                                            <li class="w-nav-community menu-item menu-item-type-custom menu-item-object-custom menu-item-19732"><a href="https://www.jefit.com/community/" class="menu-link">Jefit Community</a></li>
+                                            <li class="w-nav-blog menu-item menu-item-type-post_type menu-item-object-page menu-item-14824"><a href="https://www.jefit.com/blog/" class="menu-link">Blog</a></li>
+                                        </ul>
+                                        </li>
+                                        <li class="w-nav-coach menu-item menu-item-type-post_type menu-item-object-page menu-item-15933"><a href="https://www.jefit.com/coach/" class="menu-link">Coach</a></li>
+                                        <li class="w-nav-elite menu-item menu-item-type-custom menu-item-object-custom menu-item-15181"><a href="https://www.jefit.com/elite/" class="menu-link">Elite</a></li>
+                                                                                        <li class="w-nav-login menu-item menu-item-type-custom menu-item-object-custom menu-item-18861"><a href="https://www.jefit.com/my-jefit/" class="menu-link">Login</a></li>
+                                                                                    </ul></div></nav></div></div>		</div>
+            </div>
+        </div>
+    </header>
+
+   <div class="container-fluid px-0">
+   <!-- COOKIES -->
+   <div class="alert text-center cookiealert" role="alert">
+      <div class="cookiealert-container">
+         We use cookies to help make Jefit better. By visiting this site, you agree to our <a href="https://www.jefit.com/privacy-policy" target="_blank">cookie policy</a>.
+         <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
+         Dismiss
+         </button>
+      </div>
+   </div>
+   <!-- /COOKIES -->
+
+
+   
+<link rel='stylesheet' id='e-animations-css'  href='https://www.jefit.com/wp/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.7.0' media='all' />
+    <script id='astra-theme-js-js-extra'>
+        var astra = {"break_point":"921","isRtl":""};
+    </script>
+    <script src='https://www.jefit.com/wp/wp-content/themes/astra/assets/js/minified/frontend.min.js?ver=3.9.1' id='astra-theme-js-js'></script>
+<div style = "display: flex; width: 100vw; margin-left: calc(50% - 50vw); justify-content: center; ">
+	<div class ="hide-ads" style = "margin-right: 50px;margin-top: 50px;">
+        <div style = "position: sticky; top: 0;"><table cellspacing="0" id="hor-minimalist_2">
+
+<tr><td id="JefitSideTableAds">
+
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-2835681754103896";
+            /* JEFIT LEFT */
+            google_ad_slot = "8830191561";
+            google_ad_width = 160;
+            google_ad_height = 600;
+            //-->
+        </script>
+        <script type="text/javascript"
+                src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+</td></tr>
+</table>
+</div>
+    </div>
+	<div class="container-fluid row">
+			<tr>
+			
+			<form style ="" id="search" action="bodypart.php?id=2&exercises=Biceps&page=0&All=0&Bands=0&Bench=0&Dumbbell=0&EZBar=0&Kettlebell=0&MachineStrength=0&MachineCardio=0&Barbell=0&BodyOnly=0&ExerciseBall=0&FoamRoll=0&PullBar=0&WeightPlate=0&Other=0&Strength=0&Stretching=0&Powerlifting=0&OlympicWeightLifting=0&Beginner=0&Intermediate=0&Expert=0" name="search" method="post">
+
+<div class="row">
+	<div class="col-12 col-md-6 p-2">
+			<span>Muscles</span>
+			<div>
+			<ul style ="  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;">
+				<li id="exerciselefttext"><a href="https://www.jefit.com/exercises/bodypart.php?id=11&exercises=All">All</a></li>
+				<li id="exerciselefttext"><a href="https://www.jefit.com/exercises/bodypart.php?id=0&exercises=Abs">Abs</a></li>
+				<li id="exerciselefttext"><a href="https://www.jefit.com/exercises/bodypart.php?id=1&exercises=Back">Back</a></li>
+				<li id="exerciselefttext"><a href="https://www.jefit.com/exercises/bodypart.php?id=2&exercises=Biceps"><strong>> Biceps</strong></a></li>
+				<li id="exerciselefttext"><a href="https://www.jefit.com/exercises/bodypart.php?id=3&exercises=Chest">Chest</a></li>
+				<li id="exerciselefttext"><a href="https://www.jefit.com/exercises/bodypart.php?id=4&exercises=Forearm">Forearm</a></li>
+
+				<li id="exerciselefttext"><a href="https://www.jefit.com/exercises/bodypart.php?id=5&exercises=Glutes">Glutes</a></li>
+				<li id="exerciselefttext"><a href="https://www.jefit.com/exercises/bodypart.php?id=6&exercises=Shoulders">Shoulders</a></li>
+				<li id="exerciselefttext"><a href="https://www.jefit.com/exercises/bodypart.php?id=7&exercises=Triceps">Triceps</a></li>
+				<li id="exerciselefttext"><a href="https://www.jefit.com/exercises/bodypart.php?id=8&exercises=Upper-Legs">Upper Legs</a></li>
+				<li id="exerciselefttext"><a href="https://www.jefit.com/exercises/bodypart.php?id=9&exercises=Lower-Legs">Lower Legs</a></li>
+				<li id="exerciselefttext"><a href="https://www.jefit.com/exercises/bodypart.php?id=10&exercises=Cardio">Cardio</a></li>
+			</ul>
+			</div>
+			
+	</div>
+	<div class="col-12 col-md-6 p-2">
+		<span>Equipment</span>
+			<ul style ="columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;">
+				<li id="exercisesearchtext"><input  name="All" type="checkbox" onClick="checkUncheckAll(document.search.All,document.search.Bands,document.search.Bench,document.search.Dumbbell,document.search.EZBar,document.search.Kettlebell,document.search.MachineStrength,document.search.MachineCardio,document.search.Barbell,document.search.BodyOnly,document.search.ExerciseBall,document.search.FoamRoll,document.search.PullBar,document.search.WeightPlate,document.search.Other)" value="1"/> All</li>
+				<li id="exercisesearchtext"><input  name="Bands" type="checkbox" value="1"/> Bands</li>
+				<li id="exercisesearchtext"><input  name="Barbell" type="checkbox" value="1"/> Barbell</li>
+				<li id="exercisesearchtext"><input  name="Bench" type="checkbox" value="1"/> Bench</li>
+				<li id="exercisesearchtext"><input  name="BodyOnly" type="checkbox" value="1"/> Body Only</li>
+				<li id="exercisesearchtext"><input  name="Dumbbell" type="checkbox" value="1"/> Dumbbell</li>
+				<li id="exercisesearchtext"><input  name="ExerciseBall" type="checkbox" value="1"/> Exercise Ball</li>
+				<li id="exercisesearchtext"><input  name="EZBar" type="checkbox" value="1"/> EZ - Bar</li>
+				<li id="exercisesearchtext"><input  name="FoamRoll" type="checkbox" value="1"/> Foam Roll</li>
+				<li id="exercisesearchtext"><input  name="Kettlebell" type="checkbox" value="1"/> Kettlebell</li>
+				<li id="exercisesearchtext"><input  name="MachineCardio" type="checkbox" value="1"/> Machine - Cardio</li>
+				<li id="exercisesearchtext"><input  name="MachineStrength" type="checkbox" value="1"/> Machine - Strength</li>
+				<li id="exercisesearchtext"><input  name="Other" type="checkbox" value="1"/> Other</li>
+				<li id="exercisesearchtext"><input  name="PullBar" type="checkbox" value="1"/> Pull Bar</li>
+				<li id="exercisesearchtext"><input  name="WeightPlate" type="checkbox" value="1"/> Weight Plate</li>
+			</ul>
+	</div>
+
+</div>
+
+<div class="row">
+	 <div class="col-6 col-md-4 p-2">
+		<span>Type</span>
+		<ul>
+				<li id="exercisesearchtext"><input  name="Strength" type="checkbox" value="1"/> Strength</li>
+				<li id="exercisesearchtext"><input  name="Stretching" type="checkbox" value="1"/> Stretching</li>
+				<li id="exercisesearchtext"><input  name="Powerlifting" type="checkbox" value="1"/> Powerlifting</li>
+				<li id="exercisesearchtext"><input  name="OlympicWeightLifting" type="checkbox" value="1"/> Olympic Weight Lifting</li>
+		</ul>
+	 </div>
+
+	 <div class="col-6 col-md-4 p-2">
+		<span>Difficulty</span>
+		<ul>
+				<li id="exercisesearchtext"><input  name="Beginner" type="checkbox" value="1"/> Beginner</li>
+				<li id="exercisesearchtext"><input  name="Intermediate" type="checkbox" value="1"/> Intermediate</li>
+				<li id="exercisesearchtext"><input  name="Expert" type="checkbox" value="1"/> Expert</li>
+			</ul>
+	 </div>
+
+	 <div class="col-12 col-md-4 p-2 mt-4">
+		<div class="input-group">
+			<input class="form-control" type="text" placeholder="Search..." name=searchText id=searchText value=""/>
+			<input class="btn btn-whitebg p-0 px-3" name="Submit" type="submit" value="Search" alt="submit" />
+		</div>
+	 </div>
+</div>								
+</form>
+<script type="text/javascript">
+function checkUncheckAll(All,Bands,Bench,Dumbbell,EZBar,Kettlebell,MachineStrength,MachineCardio,Barbell,BodyOnly,ExerciseBall,FoamRoll,PullBar,WeightPlate,Other)
+{
+	if(All.checked == true)
+	{
+		Bands.checked = true ;
+		Bench.checked = true ;
+		Dumbbell.checked = true ;
+		EZBar.checked = true ;
+		Kettlebell.checked = true ;
+		MachineStrength.checked = true ;
+		MachineCardio.checked = true ;
+		Barbell.checked = true ;
+		BodyOnly.checked = true ;
+		ExerciseBall.checked = true ;
+		FoamRoll.checked = true ;
+		PullBar.checked = true ;
+		WeightPlate.checked = true ;
+		Other.checked = true ;
+	}
+	else
+	{
+		Bands.checked = false ;
+		Bench.checked = false ;
+		Dumbbell.checked = false ;
+		EZBar.checked = false ;
+		Kettlebell.checked = false ;
+		MachineStrength.checked = false ;
+		MachineCardio.checked = false ;
+		Barbell.checked = false ;
+		BodyOnly.checked = false ;
+		ExerciseBall.checked = false ;
+		FoamRoll.checked = false ;
+		PullBar.checked = false ;
+		WeightPlate.checked = false ;
+		Other.checked = false ;
+	}
+}
+</script>		
+			</tr>
+
+					<div id="bodypartheader">
+						<strong id="bodyparttext">Biceps Exercise Database</strong>
+					</div>
+
+						<div class="row p-0 m-0">
+					<div class="col-6 col-sm-4 p-2">
+						<a href='283/band-bicep-curl-' title='Band Bicep Curl '>
+							<img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/1132.jpg" alt="Band Bicep Curl "/>
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 p-2">
+						<a href='283/band-bicep-curl-' title='Band Bicep Curl '>
+                            <img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/1133.jpg" alt="Band Bicep Curl "/>
+                        </a>
+					</div>
+					<div align="center" class="col-12 col-sm-4 p-2 mb-2 align-self-center">
+						<h4 style="margin-bottom: 5px; margin-top: 0px;"><a style="color:#0E709A;" href='283/band-bicep-curl-' title='Band Bicep Curl '>Band Bicep Curl </a></h4>
+						<p>Main Muscle Group : Biceps </p>
+						<!-- <p>Difficulty : Beginner </p>-->
+						<p>Type : Strength </p>
+						<p>Equipment : Bands </p>
+						<a href="../my-jefit/chart/?type=2&amp;id=283&amp;bs=1"></a>
+						<p style='margin-top:10px'>
+													<a id="w-try-exe-free" class="btn btn-primary btn-whitebg-hov mr-1 rounded-3 my-1" href="https://www.jefit.com/signup" target="_blank" onclick="logEvent('w-try-exe-free')">Try for Free</a>
+												</p>
+					</div>
+				</div>
+								<div class="row p-0 m-0">
+					<div class="col-6 col-sm-4 p-2">
+						<a href='259/barbell-bicep-curl-prone' title='Barbell Bicep Curl (Prone)'>
+							<img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/1036.jpg" alt="Barbell Bicep Curl (Prone)"/>
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 p-2">
+						<a href='259/barbell-bicep-curl-prone' title='Barbell Bicep Curl (Prone)'>
+                            <img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/1037.jpg" alt="Barbell Bicep Curl (Prone)"/>
+                        </a>
+					</div>
+					<div align="center" class="col-12 col-sm-4 p-2 mb-2 align-self-center">
+						<h4 style="margin-bottom: 5px; margin-top: 0px;"><a style="color:#0E709A;" href='259/barbell-bicep-curl-prone' title='Barbell Bicep Curl (Prone)'>Barbell Bicep Curl (Prone)</a></h4>
+						<p>Main Muscle Group : Biceps </p>
+						<!-- <p>Difficulty : Intermediate </p>-->
+						<p>Type : Strength </p>
+						<p>Equipment : Barbell </p>
+						<a href="../my-jefit/chart/?type=2&amp;id=259&amp;bs=1"></a>
+						<p style='margin-top:10px'>
+													<a id="w-try-exe-free" class="btn btn-primary btn-whitebg-hov mr-1 rounded-3 my-1" href="https://www.jefit.com/signup" target="_blank" onclick="logEvent('w-try-exe-free')">Try for Free</a>
+												</p>
+					</div>
+				</div>
+								<div class="row p-0 m-0">
+					<div class="col-6 col-sm-4 p-2">
+						<a href='275/barbell-bicep-curl-wide-grip' title='Barbell Bicep Curl (Wide Grip)'>
+							<img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/1100.jpg" alt="Barbell Bicep Curl (Wide Grip)"/>
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 p-2">
+						<a href='275/barbell-bicep-curl-wide-grip' title='Barbell Bicep Curl (Wide Grip)'>
+                            <img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/1101.jpg" alt="Barbell Bicep Curl (Wide Grip)"/>
+                        </a>
+					</div>
+					<div align="center" class="col-12 col-sm-4 p-2 mb-2 align-self-center">
+						<h4 style="margin-bottom: 5px; margin-top: 0px;"><a style="color:#0E709A;" href='275/barbell-bicep-curl-wide-grip' title='Barbell Bicep Curl (Wide Grip)'>Barbell Bicep Curl (Wide Grip)</a></h4>
+						<p>Main Muscle Group : Biceps </p>
+						<!-- <p>Difficulty : Beginner </p>-->
+						<p>Type : Strength </p>
+						<p>Equipment : Barbell </p>
+						<a href="../my-jefit/chart/?type=2&amp;id=275&amp;bs=1"></a>
+						<p style='margin-top:10px'>
+													<a id="w-try-exe-free" class="btn btn-primary btn-whitebg-hov mr-1 rounded-3 my-1" href="https://www.jefit.com/signup" target="_blank" onclick="logEvent('w-try-exe-free')">Try for Free</a>
+												</p>
+					</div>
+				</div>
+								<div class="row p-0 m-0">
+					<div class="col-6 col-sm-4 p-2">
+						<a href='364/barbell-bicep-drag-curl' title='Barbell Bicep Drag Curl'>
+							<img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/1456.jpg" alt="Barbell Bicep Drag Curl"/>
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 p-2">
+						<a href='364/barbell-bicep-drag-curl' title='Barbell Bicep Drag Curl'>
+                            <img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/1457.jpg" alt="Barbell Bicep Drag Curl"/>
+                        </a>
+					</div>
+					<div align="center" class="col-12 col-sm-4 p-2 mb-2 align-self-center">
+						<h4 style="margin-bottom: 5px; margin-top: 0px;"><a style="color:#0E709A;" href='364/barbell-bicep-drag-curl' title='Barbell Bicep Drag Curl'>Barbell Bicep Drag Curl</a></h4>
+						<p>Main Muscle Group : Biceps </p>
+						<!-- <p>Difficulty : Intermediate </p>-->
+						<p>Type : Strength </p>
+						<p>Equipment : Barbell, EZ Curl Bar </p>
+						<a href="../my-jefit/chart/?type=2&amp;id=364&amp;bs=1"></a>
+						<p style='margin-top:10px'>
+													<a id="w-try-exe-free" class="btn btn-primary btn-whitebg-hov mr-1 rounded-3 my-1" href="https://www.jefit.com/signup" target="_blank" onclick="logEvent('w-try-exe-free')">Try for Free</a>
+												</p>
+					</div>
+				</div>
+								<div class="row p-0 m-0">
+					<div class="col-6 col-sm-4 p-2">
+						<a href='1012/barbell-concentration-curl' title='Barbell Concentration Curl'>
+							<img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/4048.jpg" alt="Barbell Concentration Curl"/>
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 p-2">
+						<a href='1012/barbell-concentration-curl' title='Barbell Concentration Curl'>
+                            <img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/4049.jpg" alt="Barbell Concentration Curl"/>
+                        </a>
+					</div>
+					<div align="center" class="col-12 col-sm-4 p-2 mb-2 align-self-center">
+						<h4 style="margin-bottom: 5px; margin-top: 0px;"><a style="color:#0E709A;" href='1012/barbell-concentration-curl' title='Barbell Concentration Curl'>Barbell Concentration Curl</a></h4>
+						<p>Main Muscle Group : Biceps </p>
+						<!-- <p>Difficulty : Beginner </p>-->
+						<p>Type : Strength </p>
+						<p>Equipment : Barbell </p>
+						<a href="../my-jefit/chart/?type=2&amp;id=1012&amp;bs=1"></a>
+						<p style='margin-top:10px'>
+													<a id="w-try-exe-free" class="btn btn-primary btn-whitebg-hov mr-1 rounded-3 my-1" href="https://www.jefit.com/signup" target="_blank" onclick="logEvent('w-try-exe-free')">Try for Free</a>
+												</p>
+					</div>
+				</div>
+								<div class="row p-0 m-0">
+					<div class="col-6 col-sm-4 p-2">
+						<a href='365/barbell-concentration-curl-close-grip' title='Barbell Concentration Curl (Close Grip)'>
+							<img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/1460.jpg" alt="Barbell Concentration Curl (Close Grip)"/>
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 p-2">
+						<a href='365/barbell-concentration-curl-close-grip' title='Barbell Concentration Curl (Close Grip)'>
+                            <img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/1461.jpg" alt="Barbell Concentration Curl (Close Grip)"/>
+                        </a>
+					</div>
+					<div align="center" class="col-12 col-sm-4 p-2 mb-2 align-self-center">
+						<h4 style="margin-bottom: 5px; margin-top: 0px;"><a style="color:#0E709A;" href='365/barbell-concentration-curl-close-grip' title='Barbell Concentration Curl (Close Grip)'>Barbell Concentration Curl (Close Grip)</a></h4>
+						<p>Main Muscle Group : Biceps </p>
+						<!-- <p>Difficulty : Intermediate </p>-->
+						<p>Type : Strength </p>
+						<p>Equipment : Barbell </p>
+						<a href="../my-jefit/chart/?type=2&amp;id=365&amp;bs=1"></a>
+						<p style='margin-top:10px'>
+													<a id="w-try-exe-free" class="btn btn-primary btn-whitebg-hov mr-1 rounded-3 my-1" href="https://www.jefit.com/signup" target="_blank" onclick="logEvent('w-try-exe-free')">Try for Free</a>
+												</p>
+					</div>
+				</div>
+								<div class="row p-0 m-0">
+					<div class="col-6 col-sm-4 p-2">
+						<a href='112/barbell-curl' title='Barbell Curl'>
+							<img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/448.jpg" alt="Barbell Curl"/>
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 p-2">
+						<a href='112/barbell-curl' title='Barbell Curl'>
+                            <img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/449.jpg" alt="Barbell Curl"/>
+                        </a>
+					</div>
+					<div align="center" class="col-12 col-sm-4 p-2 mb-2 align-self-center">
+						<h4 style="margin-bottom: 5px; margin-top: 0px;"><a style="color:#0E709A;" href='112/barbell-curl' title='Barbell Curl'>Barbell Curl</a></h4>
+						<p>Main Muscle Group : Biceps </p>
+						<!-- <p>Difficulty : Beginner </p>-->
+						<p>Type : Strength </p>
+						<p>Equipment : Barbell </p>
+						<a href="../my-jefit/chart/?type=2&amp;id=112&amp;bs=1"></a>
+						<p style='margin-top:10px'>
+													<a id="w-try-exe-free" class="btn btn-primary btn-whitebg-hov mr-1 rounded-3 my-1" href="https://www.jefit.com/signup" target="_blank" onclick="logEvent('w-try-exe-free')">Try for Free</a>
+												</p>
+					</div>
+				</div>
+								<div class="row p-0 m-0">
+					<div class="col-6 col-sm-4 p-2">
+						<a href='99/barbell-curl-close-grip' title='Barbell Curl (Close Grip)'>
+							<img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/396.jpg" alt="Barbell Curl (Close Grip)"/>
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 p-2">
+						<a href='99/barbell-curl-close-grip' title='Barbell Curl (Close Grip)'>
+                            <img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/397.jpg" alt="Barbell Curl (Close Grip)"/>
+                        </a>
+					</div>
+					<div align="center" class="col-12 col-sm-4 p-2 mb-2 align-self-center">
+						<h4 style="margin-bottom: 5px; margin-top: 0px;"><a style="color:#0E709A;" href='99/barbell-curl-close-grip' title='Barbell Curl (Close Grip)'>Barbell Curl (Close Grip)</a></h4>
+						<p>Main Muscle Group : Biceps </p>
+						<!-- <p>Difficulty : Beginner </p>-->
+						<p>Type : Strength </p>
+						<p>Equipment : Barbell </p>
+						<a href="../my-jefit/chart/?type=2&amp;id=99&amp;bs=1"></a>
+						<p style='margin-top:10px'>
+													<a id="w-try-exe-free" class="btn btn-primary btn-whitebg-hov mr-1 rounded-3 my-1" href="https://www.jefit.com/signup" target="_blank" onclick="logEvent('w-try-exe-free')">Try for Free</a>
+												</p>
+					</div>
+				</div>
+								<div class="row p-0 m-0">
+					<div class="col-6 col-sm-4 p-2">
+						<a href='97/barbell-curl-against-an-incline' title='Barbell Curl Against an Incline'>
+							<img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/388.jpg" alt="Barbell Curl Against an Incline"/>
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 p-2">
+						<a href='97/barbell-curl-against-an-incline' title='Barbell Curl Against an Incline'>
+                            <img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/389.jpg" alt="Barbell Curl Against an Incline"/>
+                        </a>
+					</div>
+					<div align="center" class="col-12 col-sm-4 p-2 mb-2 align-self-center">
+						<h4 style="margin-bottom: 5px; margin-top: 0px;"><a style="color:#0E709A;" href='97/barbell-curl-against-an-incline' title='Barbell Curl Against an Incline'>Barbell Curl Against an Incline</a></h4>
+						<p>Main Muscle Group : Biceps </p>
+						<!-- <p>Difficulty : Beginner </p>-->
+						<p>Type : Strength </p>
+						<p>Equipment : Barbell </p>
+						<a href="../my-jefit/chart/?type=2&amp;id=97&amp;bs=1"></a>
+						<p style='margin-top:10px'>
+													<a id="w-try-exe-free" class="btn btn-primary btn-whitebg-hov mr-1 rounded-3 my-1" href="https://www.jefit.com/signup" target="_blank" onclick="logEvent('w-try-exe-free')">Try for Free</a>
+												</p>
+					</div>
+				</div>
+								<div class="row p-0 m-0">
+					<div class="col-6 col-sm-4 p-2">
+						<a href='254/barbell-drag-curl' title='Barbell Drag Curl'>
+							<img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/1016.jpg" alt="Barbell Drag Curl"/>
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 p-2">
+						<a href='254/barbell-drag-curl' title='Barbell Drag Curl'>
+                            <img style="width:100%; max-height:190px; border-radius:5px;" src="../images/exercises/960_590/1017.jpg" alt="Barbell Drag Curl"/>
+                        </a>
+					</div>
+					<div align="center" class="col-12 col-sm-4 p-2 mb-2 align-self-center">
+						<h4 style="margin-bottom: 5px; margin-top: 0px;"><a style="color:#0E709A;" href='254/barbell-drag-curl' title='Barbell Drag Curl'>Barbell Drag Curl</a></h4>
+						<p>Main Muscle Group : Biceps </p>
+						<!-- <p>Difficulty : Intermediate </p>-->
+						<p>Type : Strength </p>
+						<p>Equipment : Barbell </p>
+						<a href="../my-jefit/chart/?type=2&amp;id=254&amp;bs=1"></a>
+						<p style='margin-top:10px'>
+													<a id="w-try-exe-free" class="btn btn-primary btn-whitebg-hov mr-1 rounded-3 my-1" href="https://www.jefit.com/signup" target="_blank" onclick="logEvent('w-try-exe-free')">Try for Free</a>
+												</p>
+					</div>
+				</div>
+									
+												<div style="text-align: center; margin: 10px 0px;">
+												<div class='pageCell'>Page 1 of 12</div><a href='./bodypart.php?id=2&exercises=Biceps
+						&All=0&Bands=0&Bench=0&Dumbbell=0&EZBar=0
+						&Kettlebell=0&MachineStrength=0&MachineCardio=0&Barbell=0&BodyOnly=0
+						&ExerciseBall=0&FoamRoll=0&PullBar=0&WeightPlate=0&Other=0
+						&Strength=0&Stretching=0&Powerlifting=0&OlympicWeightLifting=0
+						&Beginner=0&Intermediate=0&Expert=0&page=1'><div class='pageCell' style='background:gray;color:white;'>1</div></a><a href='./bodypart.php?id=2&exercises=Biceps
+						&All=0&Bands=0&Bench=0&Dumbbell=0&EZBar=0
+						&Kettlebell=0&MachineStrength=0&MachineCardio=0&Barbell=0&BodyOnly=0
+						&ExerciseBall=0&FoamRoll=0&PullBar=0&WeightPlate=0&Other=0
+						&Strength=0&Stretching=0&Powerlifting=0&OlympicWeightLifting=0
+						&Beginner=0&Intermediate=0&Expert=0&page=2'><div class='pageCell' >2</div></a><a href='./bodypart.php?id=2&exercises=Biceps
+						&All=0&Bands=0&Bench=0&Dumbbell=0&EZBar=0
+						&Kettlebell=0&MachineStrength=0&MachineCardio=0&Barbell=0&BodyOnly=0
+						&ExerciseBall=0&FoamRoll=0&PullBar=0&WeightPlate=0&Other=0
+						&Strength=0&Stretching=0&Powerlifting=0&OlympicWeightLifting=0
+						&Beginner=0&Intermediate=0&Expert=0&page=3'><div class='pageCell' >3</div></a>...<a rel='next' href='./bodypart.php?id=2&exercises=Biceps
+						&All=0&Bands=0&Bench=0&Dumbbell=0&EZBar=0
+						&Kettlebell=0&MachineStrength=0&MachineCardio=0&Barbell=0&BodyOnly=0
+						&ExerciseBall=0&FoamRoll=0&PullBar=0&WeightPlate=0&Other=0
+						&Strength=0&Stretching=0&Powerlifting=0&OlympicWeightLifting=0
+						&Beginner=0&Intermediate=0&Expert=0&page=2'><div class='pageCell'><img src='/assets/img/pagination/next-right.png' align='top' alt='next page arrow'/></div></a><a rel='next' href='./bodypart.php?id=2&exercises=Biceps
+						&All=0&Bands=0&Bench=0&Dumbbell=0&EZBar=0
+						&Kettlebell=0&MachineStrength=0&MachineCardio=0&Barbell=0&BodyOnly=0
+						&ExerciseBall=0&FoamRoll=0&PullBar=0&WeightPlate=0&Other=0
+						&Strength=0&Stretching=0&Powerlifting=0&OlympicWeightLifting=0
+						&Beginner=0&Intermediate=0&Expert=0&page=12'><div class='pageCell'><img src='/assets/img/pagination/last-right.png' align='top' alt='last page arrow'/></div></a>						</div>      
+	</div>
+	
+	<div class ="hide-ads" style = "margin-left: 50px;margin-top: 50px;">
+        <div style = "position: sticky; top: 0;"><table cellspacing="0" id="hor-minimalist_2">
+
+<tr><td id="JefitSideTableAds">
+
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-2835681754103896";
+            /* JEFIT LEFT */
+            google_ad_slot = "8830191561";
+            google_ad_width = 160;
+            google_ad_height = 600;
+            //-->
+        </script>
+        <script type="text/javascript"
+                src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+</td></tr>
+</table>
+</div>
+    </div>
+</div>
+          
+<!-- New Footer -->
+</div>
+<!-- Wordpress Styling -->
+
+    <!-- footer stylings -->
+    
+<!--Cookie banner-->
+<script src="https://www.jefit.com/assets/plugins/cookie-banner/cookiealert-standalone.js"></script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"a5e0c8e661","applicationID":"524815282","transactionName":"ZlxTN0pRWUoCUhZeWV8WZBFRH1JBBkMBXkVUSh4BV1ROSQJDFhlGWUk=","queueTime":0,"applicationTime":79,"atts":"ShtQQQJLSkQ=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+<!-- body closed-->
+
+<!-- New Footer design -->
+<footer
+        class="site-footer" id="colophon" itemtype="https://schema.org/WPFooter" itemscope="itemscope" itemid="#colophon" style ="margin-top: 30px;">
+    <div class="site-primary-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-4-equal ast-builder-grid-row-tablet-4-equal ast-builder-grid-row-mobile-full ast-footer-row-stack ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-primary-footer-builder">
+        <div class="ast-builder-grid-row-container-inner">
+            <div class="ast-builder-footer-grid-columns site-primary-footer-inner-wrap ast-builder-grid-row">
+                <div class="site-footer-primary-section-1 site-footer-section site-footer-section-1">
+                    <aside
+                            class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-1" aria-label="Footer Widget 1"				>
+                        <div class="footer-widget-area-inner site-info-inner"><section id="nav_menu-15" class="widget widget_nav_menu"><h2 class="widget-title">Products</h2><nav class="menu-footer-product-container" aria-label="Products"><ul id="menu-footer-product" class="menu"><li id="menu-item-18881" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18881"><a href="https://www.jefit.com/elite/" class="menu-link footer-link">Elite Membership</a></li>
+                                        <li id="menu-item-18840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18840"><a href="https://www.jefit.com/coach/" class="menu-link footer-link">Coach</a></li>
+                                        <li id="menu-item-18838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18838"><a href="https://www.jefit.com/signup/" class="menu-link footer-link">Signup</a></li>
+                                        <li id="menu-item-18837" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18837"><a href="https://www.jefit.com/my-jefit/" class="menu-link footer-link">Login</a></li>
+                                    </ul></nav></section></div>		</aside>
+                </div>
+                <div class="site-footer-primary-section-2 site-footer-section site-footer-section-2">
+                    <aside
+                            class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-2" aria-label="Footer Widget 2"		>
+                        <div class="footer-widget-area-inner site-info-inner"><section id="nav_menu-10" class="widget widget_nav_menu"><h2 class="widget-title">Resource</h2><nav class="menu-resource-section-container" aria-label="Resource"><ul id="menu-resource-section" class="menu" style ="font-size: 20px !imporant;"><li id="menu-item-18829" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18829"><a href="https://www.jefit.com/routines/" class="menu-link footer-link">Workout Plans</a></li>
+                                        <li id="menu-item-18828" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18827"><a href="https://www.jefit.com/exercises/" class="menu-link footer-link">Exercises Database</a></li>
+                                        <li id="menu-item-18827" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18827"><a href="https://www.jefit.com/community/" class="menu-link footer-link">Community</a></li>
+                                        <li id="menu-item-18826" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18826"><a href="https://www.jefit.com/help-center/" class="menu-link footer-link">Help Center</a></li>
+                                    </ul></nav></section></div>		</aside>
+                </div>
+                <div class="site-footer-primary-section-3 site-footer-section site-footer-section-3">
+                    <aside
+                            class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-3" aria-label="Footer Widget 3"		>
+                        <div class="footer-widget-area-inner site-info-inner"><section id="nav_menu-11" class="widget widget_nav_menu"><h2 class="widget-title">Legal Press</h2><nav class="menu-legal-section-container" aria-label="Legal Press"><ul id="menu-legal-section" class="menu"><li id="menu-item-18778" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18778"><a href="https://www.jefit.com/privacy-policy/" class="menu-link footer-link">Privacy Policy</a></li>
+                                        <li id="menu-item-4667" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4667"><a href="https://www.jefit.com/terms-of-use/" class="menu-link footer-link">Terms of Use</a></li>
+                                        <li id="menu-item-4675" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4669 current_page_item menu-item-4675"><a href="https://www.jefit.com/ip-notice-process/" aria-current="page" class="menu-link footer-link">IP / DMCA Notices</a></li>
+                                        <li id="menu-item-4668" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4668"><a href="https://www.jefit.com/press-media/" class="menu-link footer-link">Press &#038; Media</a></li>
+                                    </ul></nav></section></div>		</aside>
+                </div>
+                <div class="site-footer-primary-section-4 site-footer-section site-footer-section-4">
+                    <aside
+                            class="footer-widget-area widget-area site-footer-focus-item" data-section="sidebar-widgets-footer-widget-4" aria-label="Footer Widget 4"		>
+                        <div class="footer-widget-area-inner site-info-inner"><section id="nav_menu-13" class="widget widget_nav_menu"><h2 class="widget-title">Follow US</h2><nav class="menu-follow-us-container" aria-label="Follow US"><ul id="menu-follow-us" class="menu"><li id="menu-item-18755" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18755"><a href="https://www.jefit.com/blog/" class="menu-link footer-link">Blog</a></li>
+                                        <li id="menu-item-18756" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18756"><a href="https://www.facebook.com/jefitapp/" class="menu-link footer-link">Facebook</a></li>
+                                        <li id="menu-item-18757" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18757"><a href="https://twitter.com/jefitinc/" class="menu-link footer-link">Twitter</a></li>
+                                        <li id="menu-item-18758" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-18758"><a href="https://www.instagram.com/jefitapp/" class="menu-link footer-link">Instagram</a></li>
+                                    </ul></nav></section></div>		</aside>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="site-below-footer-wrap ast-builder-grid-row-container site-footer-focus-item ast-builder-grid-row-full ast-builder-grid-row-tablet-full ast-builder-grid-row-mobile-full ast-footer-row-stack ast-footer-row-tablet-stack ast-footer-row-mobile-stack" data-section="section-below-footer-builder">
+        <div class="ast-builder-grid-row-container-inner">
+            <div class="ast-builder-footer-grid-columns site-below-footer-inner-wrap ast-builder-grid-row">
+                <div class="site-footer-below-section-1 site-footer-section site-footer-section-1">
+                    <div class="ast-builder-layout-element ast-flex site-footer-focus-item ast-footer-copyright" data-section="section-footer-builder">
+                        <div class="ast-footer-copyright"><p style="text-align: center; font-size: 16px; line-height: 2;">Copyright &copy; 2010 - 2023 Jefit, Inc.<br />
+                                All Rights Reserved.</p>
+                        </div>			</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer><!-- #colophon -->
+  </html>
